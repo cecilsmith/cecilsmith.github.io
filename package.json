@@ -18,7 +18,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -b main -d build",
     "tsc": "./node_modules/.bin/tsc",
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
