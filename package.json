@@ -1,5 +1,6 @@
 {
   "name": "website",
+  "homepage": "https://cecilsmith.github.io",
   "version": "5.0.0",
   "private": true,
   "dependencies": {
@@ -9,12 +10,15 @@
     "@testing-library/jest-dom": "latest",
     "@testing-library/react": "latest",
     "@testing-library/user-event": "latest",
+    "gh-pages": "^3.2.3",
     "react": "latest",
     "react-dom": "latest",
     "react-scripts": "latest",
     "styled-components": "latest"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "tsc": "./node_modules/.bin/tsc",
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
