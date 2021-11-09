@@ -3,7 +3,7 @@ body {
 }
 
 #title-logo {
-    display: block;
+    display: inline-block;
     margin-left: auto;
     margin-right: auto;
     background-color: lightcyan;
