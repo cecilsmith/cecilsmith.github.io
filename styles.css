@@ -12,7 +12,7 @@ body {
     animation-duration: 6s;
     animation-iteration-count: infinite;
     border: 2px black solid;
-  }
+}
 
 #title-logo:not(:hover) {
     background-color: lightcyan;
@@ -25,20 +25,20 @@ body {
 }
 
 @keyframes jelly-logo {
-    0%   {
+    0% {
         border-radius: 30% 25% 25% 25%;
         width: 20%;
         height: 15%;
     }
-    25%  {
+    25% {
         border-radius: 25% 30% 25% 25%;
     }
-    50%  {
+    50% {
         border-radius: 25% 25% 30% 25%;
         width: 17.5%;
         height: 12.5%;
     }
-    75%  {
+    75% {
         border-radius: 25% 25% 25% 30%;
     }
     100% {
@@ -46,4 +46,4 @@ body {
         width: 20%;
         height: 15%;
     }
-  }
+}

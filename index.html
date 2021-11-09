@@ -1,11 +1,33 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="styles.css">
     <title>Cecil Smith Portfolio</title>
-  </head>
-  <body>
+
+    <link href="lighttheme.css" rel="stylesheet" type="text/css" title="lighttheme">
+    <link href="darktheme.css" rel="alternate stylesheet" type="text/css" title="darktheme">
+
+    <script src="styleswitch.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href=".html">null</a>
+        <a href=".html">null</a>
+        <div class="dropdown">
+            <button class="dropbtn">Theme 
+        <i class="fa fa-caret-down"></i>
+      </button>
+            <div class="dropdown-content">
+                <a href="javascript:chooseStyle('lighttheme', 60)">Light Theme</a>
+                <a href="javascript:chooseStyle('darktheme', 60)">Dark Theme</a>
+            </div>
+        </div>
+    </div>
+
     <div id="title-logo">
         <h2>Cecil Smith</h2>
     </div>
@@ -23,5 +45,6 @@
     <!-- Load our React component. -->
     <script src="like_button.js"></script>
 
-  </body>
+</body>
+
 </html>
